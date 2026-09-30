@@ -1,7 +1,7 @@
 # SUDO MAKE ME A SANDWICH
-**Category** General Skills
+**Category:** General Skills
 
-**Difficulty** Easy
+**Difficulty:** Easy
 
 ## Description
 
@@ -53,7 +53,8 @@ sudo -l
 indicating i can run 'sudo /bin/emacs' without a password. 
 
 ### 3. Solving Steps
-- My terminal(kitty) has issues running some commands, so I fixed with: 
+
+- My terminal (kitty) uses a custom TERM variable (xterm-kitty) that the remote server doesn't recognize, so I fixed with: 
 
 ```bash
 export TERM=xterm 
