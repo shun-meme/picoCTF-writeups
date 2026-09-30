@@ -18,7 +18,7 @@
 
 - None (SSH challenge instance)
 
------------
+---
 
 ## Solution
 
