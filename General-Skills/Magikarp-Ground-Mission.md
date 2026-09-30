@@ -1,11 +1,12 @@
 # Magikarp Ground Mission
 
 **Category:** General Skills
+
 **Difficulty:** Easy 
 
 ## Description
 
-> Do you know how to move between directories and read files in the shell? 
+> Do you know how to move between directories and read files in the shell?<br>
 > Start the container, ssh to it, and then ls once connected to begin.
 
 ## Hints 
@@ -26,6 +27,8 @@
 
 ### 2. Key Observations
 
+- Firstly: 
+
  ```bash
 ls -la 
 ```
@@ -41,6 +44,8 @@ cat 1of3.flag.txt
 ```txt
 academy{*** [redacted]
 ```
+
+- Next run: 
 
 ```bash
 cat instructions-to-2of3.txt 
@@ -70,6 +75,8 @@ cat 2of3.flag.txt
 ```txt
 ***_**_***_  [redacted] 
 ```
+
+- And run: 
 
 ```bash
 cat instructions-to-3of3.txt 
