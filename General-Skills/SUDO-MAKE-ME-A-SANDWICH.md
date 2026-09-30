@@ -1,4 +1,5 @@
 # SUDO MAKE ME A SANDWICH
+
 **Category:** General Skills
 
 **Difficulty:** Easy
@@ -13,7 +14,7 @@
 1. What is sudo?
 2. How do you know what permission you have?
 
-## Files provided
+## Files Provided
 
 - None (SSH challenge instance)
 
@@ -67,13 +68,13 @@ sudo /bin/emacs flag.txt
 ```
 The flag is displayed inside the file.
 
-## Flag (answer)
+## Flag
 <details>
-<summary>Click hear to reveal flag</summary>
+<summary>Click here to reveal flag</summary>
   academy{ju57_5ud0_17_101e25fb}
 </details>
 
-## Lessons learned 
+## Lessons Learned 
 
 - Always run 'sudo -l' to check what privileged commands you're allowed to use.
 - Seemingly harmless programs (like text editors) can lead to privilege escalation if they can run as root.
