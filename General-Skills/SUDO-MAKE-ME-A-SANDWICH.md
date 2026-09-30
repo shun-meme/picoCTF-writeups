@@ -56,7 +56,7 @@ indicating i can run 'sudo /bin/emacs' without a password.
 - My terminal(kitty) has issues running some commands, so I fixed with: 
 
 ```bash
-export TERM=term 
+export TERM=xterm 
 ```
 
 - after that, I opened the file with: 
