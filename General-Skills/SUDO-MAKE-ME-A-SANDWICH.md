@@ -1,5 +1,6 @@
 # SUDO MAKE ME A SANDWICH
 **Category** General Skills
+
 **Difficulty** Easy
 
 ## Description
@@ -40,13 +41,18 @@ cat flag.txt #Permission denied
 
 ```bash
 sudo cat flag.txt #failed, asked for sudo password which is not provided 
+```
 
+### 2. Key Observations
+
+```bash
 sudo -l 
 #User ctf-player may run the following commands on challenge:
 #    (ALL) NOPASSWD: /bin/emacs
 ```
 indicating i can run 'sudo /bin/emacs' without a password. 
 
+### 3. Solving Steps
 - My terminal(kitty) has issues running some commands, so I fixed with: 
 
 ```bash
