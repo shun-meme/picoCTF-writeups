@@ -116,7 +116,11 @@ cat 3of3.flag.txt
 
 <details>
 <summary>Click here to reveal flag</summary>
+
+```txt
 academy{xxsh_0ut_0f_//4t3r_47c47679}
+  ```
+
 </details>
 
 ## Lessons Learned
