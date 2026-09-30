@@ -68,7 +68,8 @@ sudo /bin/emacs flag.txt
 ```
 The flag is displayed inside the file.
 
-## Flag
+## Flag 
+
 <details>
 <summary>Click here to reveal flag</summary>
   academy{ju57_5ud0_17_101e25fb}
