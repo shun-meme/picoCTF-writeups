@@ -1,6 +1,7 @@
 # Big Zip
 
 **Category:** General Skills
+
 **Difficulty:** Easy
 
 ## Description
