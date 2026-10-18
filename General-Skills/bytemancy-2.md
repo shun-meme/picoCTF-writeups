@@ -6,7 +6,7 @@
 
 ## Description
 
-> Can you conjure the right bytes?
+> Can you conjure the right bytes? <br>
 > The program's source code can be downloaded [here](https://challenge-files.cylabacademy.net/library/53cac0b2b4e932293c13dd3d0144509deeb0970d7e9117ef59f20d030c312edc/app.py)
 
 ## Hints 
@@ -41,6 +41,7 @@ Send me the HEX BYTE 0xFF 3 times, side-by-side, no space.
 
 - This below is the content of the provided `app.py`(collapsed): 
 <details>
+<summary>Click here to view the whole code (app.py)</summary>
 
 ```py 
 import sys
@@ -84,7 +85,7 @@ while(True):
 
 ### 3. Solving Steps
 
-- The code ` sys.stdin.buffer` from `app.py` makes the input a byte object and reads it.
+- The code `sys.stdin.buffer` from `app.py` makes the input a byte object and reads it.
 
 - I used [`printf`](https://www.geeksforgeeks.org/linux-unix/printf-command-in-linux-with-examples/) and piped it into netcat: 
 ```bash 
@@ -92,7 +93,7 @@ printf '\xff\xff\xff\n' | nc <host address> <PORT>
 ```
 This sent the three "0xFF" bytes the program which returned the flag. 
 
-(NOTE: the official hint suggested [pwntools](https://docs.pwntools.com/en/stable/), but the same bytes can be sent with any tool that can produce raw binary output--`printf` )
+(⚠️NOTE: the official hint suggested [pwntools](https://docs.pwntools.com/en/stable/), but the same bytes can be sent with any tool that can produce raw binary output--`printf` )
 
 ## Flag
 
