@@ -10,6 +10,8 @@ The writeups include step-by-step walkthroughs.
 
 Flags are hidden behind collapsible spoiler tags so you can try the challenges yourself first.
 
+## Disclaimer 
 
+AI tools are used to check grammar, clarity, and wording for the writeups, but the solutions and understanding are my own.
 
 
